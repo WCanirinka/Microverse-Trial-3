@@ -4,27 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Product Landing Page</title>
 </head>
 <body>
     <div id="page-wrapper">
         <header id="header">
             <div class="logo">
-                <img id="header-img" src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjHs5P2oP3kAhV67OAKHYCiAvwQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.canva.com%2Fcreate%2Flogos%2F&psig=AOvVaw2UCIOizHHB5MKQzOo1pnFP&ust=1570094681243891" 
+                <img id="header-img" src="https://www.logogenie.net/feedback/3589659" 
                 alt="Logo display">
             </div>
 
-            <nav id="nav-bar">
-                <ul>
-                    <li><a class="nav-link" href="#properties">Properties</a></li>
-                    <li><a class="nav-link" href="#description">Description</a></li>
-                    <li><a class="nav-link" href="#price">Price</a></li>
-                </ul>
-            </nav>
+            
+
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item  active">
+                          <a class="nav-link" href="#properties">Properties <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" href="#description">Description</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" href="#price">Price</a>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                  </nav>
+
         </header>
 
         <section>
-            <form id="form" action=""><input name="email" id="email" type="email"></form>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input name="email" id="email" type="email" placeholder="enter your email" required>
+                <input id="submit" type="button" value="submit"  class="btn">
+            </form>
         </section>
 
         <section id="properties">

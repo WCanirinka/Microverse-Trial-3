@@ -1,0 +1,19 @@
+#page-wrapper{
+    text-align: center;
+    
+}
+.navbar {
+   align-items: center;
+
+  }
+  
+  .navbar-nav .nav-item {
+    text-align: center;
+    align-items: center;
+    float: inherit;
+    display: inline-block;
+  }
+
+  #nav-bar{
+    position: fixed;
+}
